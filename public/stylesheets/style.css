@@ -1,0 +1,12 @@
+body {
+  font-family: Nunito Sans,sans-serif !important;
+}
+
+a {
+  color: #00B7FF;
+}
+canvas {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
