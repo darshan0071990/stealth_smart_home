@@ -1,0 +1,52 @@
+{
+  "connected_devices" : [
+    {
+      "id": 1,
+      "name": "Bathroom_heater",
+      "properties": [
+        {
+          "id": "temperature",
+          "value": 19
+          "timestamp": 1520730364
+        },
+        {
+          "id": "active",
+          "value": true,
+          "timestamp": 1520730364
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Living_heater",
+      "properties": [
+        {
+          "id": "temperature",
+          "value": 19,
+          "timestamp": 1520730364
+        },
+        {
+          "id": "active",
+          "value": true,
+          "timestamp": 1520730364
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Bedroom_heater",
+      "properties": [
+        {
+          "id": "temperature",
+          "value": 19,
+          "timestamp": 1520730364
+        },
+        {
+          "id": "active",
+          "value": true,
+          "timestamp": 1520730364
+        }
+      ]
+    }
+  ]
+}
