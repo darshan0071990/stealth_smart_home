@@ -1,21 +1,21 @@
 extends layout
-
 block content
   div.container-fluid
      .row
-      div.col-md-6
+      div.col-md-6.main-raised
         div.panel.panel-default
           div.panel-heading.text-center
-            h1 Device List for Hyposure
+            h1 Discovered Devices
           div.panel-body
             table.table
               each device in devices
                 tr
                   td.device
-                    span.bg-info= device.id
+                    span= device.id
                   td.device
-                    span.bg-info= device.name
+                    span= device.name
                   td.device
-                    button.deactivate(onclick='', class="btn btn-sm btn-info") Disconnect
-                  td.device
-                    button.activate(onclick='', class="btn btn-sm btn-info") Connect
+                    div.togglebutton
+                      label
+                        input.switch_btn(type="checkbox")
+                        span.toggle

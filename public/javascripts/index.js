@@ -26,8 +26,6 @@ $(function () {
 
     var ctx1= document.getElementById('chart1').getContext('2d');
     var ctx2 = document.getElementById('chart2').getContext('2d');
-    // ctx1.canvas.width = 1000;
-    // ctx1.canvas.height = 300;
     var cfg = {
         type: 'bar',
         data: {
@@ -95,19 +93,4 @@ $(function () {
     };
     var chart = new Chart(ctx1, cfg);
     var chart = new Chart(ctx2, cfg2);
-
-    document.getElementsByClassName('deactivate').onclick = disconnect_device;
-    document.getElementsByClassName('activate').onclick = connect_device;
-    document.getElementsByClassName('device').onclick = show;
-
-
-    function show(event) {
-        alert('you are awesome');
-    }
-    function disconnect_device(event) {
-        alert('you are awesome');
-    }
-    function connect_device(event) {
-        alert('you are not awesome anymore');
-    }
 });
